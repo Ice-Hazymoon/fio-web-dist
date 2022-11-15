@@ -1,0 +1,1 @@
+document.getElementById("open-sitebar-btn").addEventListener("click",(()=>{document.body.classList.contains("open-sitebar")?document.body.classList.remove("open-sitebar"):document.body.classList.add("open-sitebar")})),document.getElementById("sitebar-cover").addEventListener("click",(()=>{document.body.classList.remove("open-sitebar")}));
